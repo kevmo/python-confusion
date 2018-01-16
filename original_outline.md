@@ -1,5 +1,4 @@
 Outline:
-``
     Introduction
         Brief personal introduction
         Background information on data science
