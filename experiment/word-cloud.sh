@@ -1,4 +1,4 @@
+rm data.txt
 
-
-python3 scrape.py >> data.json
+python3 scrape.py >> data.txt
 

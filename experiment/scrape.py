@@ -14,17 +14,18 @@ result = requests.get(STACK_OVERFLOW_URL)
 
 so_content = result.content
 
+# BeautifulSoup object
+# could also accept a filename instead of string
 soup = BeautifulSoup(so_content, PARSER)
 
 samples = soup.find_all("a", "question-hyperlink")
 
-print(type(samples))
+# print(samples[0].text)
 
-# for s in range(len(samples)):
-#     print(s)
-#     print(samples[s])
+for s in range(len(samples)):
+    print(samples[s].text)
 
-
-titles_JSON = json.load(samples)
-
-print(titles_JSON)
+# s
+# titles_JSON = json.load(samples)
+#
+# print(titles_JSON)
