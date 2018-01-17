@@ -25,6 +25,10 @@ samples = soup.find_all("a", "question-hyperlink")
 for s in range(len(samples)):
     print(samples[s].text)
 
+
+
+
+
 # s
 # titles_JSON = json.load(samples)
 #
