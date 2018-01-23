@@ -12,3 +12,7 @@
 ## Theory
 
 * [Tukey on Exploratory Data Analysis](http://www.aliquote.org/cours/2013_AS/docs/Tukey1980.pdf)
+
+## Industry 
+
+* [The Rise of the Data Engineer](https://medium.freecodecamp.org/the-rise-of-the-data-engineer-91be18f1e603)
