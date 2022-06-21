@@ -1,7 +1,7 @@
 beautifulsoup4==4.6.0
 cycler==0.10.0
 matplotlib==2.1.1
-numpy==1.14.0
+numpy==1.22.0
 pandas==0.22.0
 pyparsing==2.2.0
 python-dateutil==2.6.1
